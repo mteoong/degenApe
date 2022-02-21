@@ -50,7 +50,7 @@ class Home extends Component {
   componentDidMount() {
     const mintButton = document.getElementsByClassName('mint')[0];
     const amount = Number(document.getElementsByClassName("num")[0].value);
-    const minted = document.getElementsByClassName('minted')[0];
+    const minted = document.getElementsByClassName('sold')[0];
 
     returnCount(minted);
     checkStatus(mintButton, amount);
@@ -61,9 +61,8 @@ class Home extends Component {
       <div className="body"> 
         <div className="top">
           <div className="title">
-            <span>DA</span> 
             <img src={logo} id="logo"/>
-            <span>LC</span>
+            <span>DAW</span> 
           </div>
           <div className="nav-bar">
             <a className="link" href="#welcome">WELCOME</a>
@@ -78,8 +77,8 @@ class Home extends Component {
         <div className="text">
           <div className="welcome-wrapper">
             <div className="welcome body-text">
-              <h1 className="welcome">WELCOME TO THE DEGEN APE LAMBO CLUB</h1>
-              <p className="welcome">DALC is a collection of 4,444 Degenerate Apes, created to unite degen traders from across the NFT community. Your Degen Ape doubles as your membership card to the OpenSeaBets Discord group, a community driven hub for discussing NFT alpha, degen plays, great wins, and equally great losses. We are a whole new level of degen. </p>
+              <h1 className="welcome">WELCOME TO THE DEGEN APE WORLD</h1>
+              <p className="welcome">DAW is a collection of 4,444 Degenerate Apes, created to unite degen traders from across the NFT community. Your Degen Ape doubles as your membership card to the OpenSeaBets Discord group and the custom built metaverse in the community owned NFTWorld. We are a whole new level of degen. </p>
             </div>
             <div className="grid" id="welcome">
               <img src={one} id="grid"/>
@@ -93,13 +92,13 @@ class Home extends Component {
               <h1 className="welcome" id="world">DEGEN WORLD DOMINATION</h1>
               <h2 className="mint-text"> Earn $WRLD tokens</h2>
               <p className="welcome">
-                We're dropping degens right into the metaverse. Get paid in <b>$WRLD</b> just by holding a DALC NFT. 
+                We're dropping degens right into the metaverse. Get paid in <b>$WRLD</b> just by holding a DAW NFT. 
               </p>
               <p className="welcome-no-line">
                 We are developing a Play-2-Earn gaming experience tailor made for degens inside our very own NFT Worlds piece of land. Our NFT World will utilize the entire <b>$WRLD</b> ecosystem where you will be able to spend, generate, and passively earn <b>$WRLD</b>.
               </p>
               <p className="welcome-no-line">
-                DALC will allocate a % of both minting and secondary sales to buy more NFT Worlds in order to generate more <b>$WRLD </b>tokens within the DEGEN Ecosystem that will be used to frequently reward holders. A community wallet will be set up immediately after mint out.
+                DAW will allocate a majority % of both minting and secondary sales to buy more NFT Worlds in order to generate more <b>$WRLD </b>tokens within the DEGEN Ecosystem. Holding a DAW gives you access to play in the NFTWorlds owned by the Community Wallet. As you hold your DAW, you receive $WRLD token yields generated from these NFTWorlds. The yields are comprised from Staking, Renting, P2E, and In Game Economy. 100% of yields generated will go back to DAW  holders. 
               </p>
             </div>
             <img src={world} id="pic"/>
@@ -119,15 +118,17 @@ class Home extends Component {
             <div className="minter">
             <div className="mint-right">
               <h1 className="mint-title">
-                BUY AN APE. 
+                JOIN THE CLUB.
               </h1>
               <h1 className="mint-title">
-                JOIN THE CLUB.
+                LAMBO SOON.
+              </h1>
+              <h1 className="mint-title">
+
               </h1>
             </div>
             <div className="mint-left">
-            <div className="sold">
-                  300/4444
+            <div className="sold">/4444
             </div>
             <img src={lambo} id="lambo"/>
             <div className="mint-function">
@@ -147,7 +148,7 @@ class Home extends Component {
           <div className="welcome-wrapper">
             <div className="welcome body-text">
               <h1 className="welcome" id="apes">WHAT MAKES AN APE DEGEN?</h1>
-              <p className="welcome">Each Degen Ape is unique and programmatically generated from over 130 possible traits. These traits include different expressions, vapes, and headwear. All traits were carefully designed to make sure each Ape is well suited to be a part of the Degen Ape Lambo Club. 
+              <p className="welcome">Each Degen Ape is unique and programmatically generated from over 130 possible traits. These traits include different expressions, vapes, and headwear. All traits were carefully designed to make sure each Ape is well suited to be a part of the Degen Ape World. 
               </p>
               <p className="welcome-no-line">
               Hidden among the 4,444 Apes are several rare 1/1s who represent the greatest degens in world history.  
@@ -161,7 +162,7 @@ class Home extends Component {
           <div className="welcome-wrapper">
             <div className="welcome body-text">
               <h1 className="roadmap" id="community">LIKE WALLSTREETBETS ENTERED THE METAVERSE</h1>
-              <p className="roadmap">DALC is a place for traders to make money and have fun while doing it. When you buy a Degen Ape, you’re not simply buying a creative piece of art, you get a few other neat benefits. 
+              <p className="roadmap">DAW is a place for traders to make money and have fun while doing it. Aside from earning <b>$WRLD</b> tokens and owning a sick piece of art, when you buy a Degen Ape you get a few other neat benefits. 
               </p>
               <p className="roadmap">
               First, your Degen Ape grants you access to OpenSeaBets, a Discord group that contains social and alpha channels accessible only to wallets containing at least one Degen Ape. As long-time members of the WSB community, our goal was to create a similar space for degens in the web 3.0 space, where degeneracy is plentiful but has yet to be united. This is where the future of the community will be decided by the community, not by some arbitrary roadmap. 
@@ -174,7 +175,7 @@ class Home extends Component {
           <div className="welcome-wrapper">
             <div className="welcome body-text">
               <h1 className="welcome" id="team-link">THE TEAM</h1>
-              <p className="welcome">The Degen Ape Lambo Club started as a fun hobby project between four friends, but quickly grew into something we realized could make a pretty decent project for degens just like us. We have gotten so much from this community and want to give back. The NFT space has been kind of sucky lately and we wanted to build something that could make Web 3.0 fun again, even for a small (but special) community of our own.</p>
+              <p className="welcome">The Degen Ape World started as a fun hobby project between four friends, but quickly grew into something we realized could make a pretty decent project for degens just like us. We have gotten so much from this community and want to give back. The NFT space has been kind of sucky lately and we wanted to build something that could make Web 3.0 fun again, even for a small (but special) community of our own.</p>
               <p className="roadmap">
                 WGMI together.
               </p>
