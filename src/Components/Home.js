@@ -11,6 +11,7 @@ import seven from '../pics/7.png';
 import eight from '../pics/8.png';
 import lambo from '../pics/lambo.png';
 import ten from '../pics/10.png';
+import world from '../pics/world.png';
 import showcase from '../pics/showcase.gif';
 import {checkStatus, returnCount} from './Mint';
 
@@ -66,9 +67,10 @@ class Home extends Component {
           </div>
           <div className="nav-bar">
             <a className="link" href="#welcome">WELCOME</a>
+            <a className="link" href="#world">WORLD</a>
             <a className="link" href="#mint">MINT</a>
             <a className="link" href="#apes">APES</a>
-            <a className="link" href="#roadmap">ROADMAP</a>
+            <a className="link" href="#community">COMMUNITY</a>
             <a className="link" href="#team-link">TEAM</a>
           </div>
         </div>
@@ -85,6 +87,22 @@ class Home extends Component {
               <img src={six} id="grid"/>
               <img src={four} id="grid"/>
             </div>
+          </div>
+          <div className="welcome-wrapper">
+            <div className="welcome body-text">
+              <h1 className="welcome" id="world">DEGEN WORLD DOMINATION</h1>
+              <h2 className="mint-text"> Earn $WRLD tokens</h2>
+              <p className="welcome">
+                We're dropping degens right into the metaverse. Get paid in <b>$WRLD</b> just by holding a DALC NFT. 
+              </p>
+              <p className="welcome-no-line">
+                We are developing a Play-2-Earn gaming experience made for degens inside our very own NFT Worlds piece of land. Our NFT World will utilize the entire <b>$WRLD</b> ecosystem where you will be able to spend, generate, and passively earn <b>$WRLD</b>.
+              </p>
+              <p className="welcome-no-line">
+                DALC will allocate a % of both minting and secondary sales to buy more NFT Worlds in order to generate more <b>$WRLD </b>tokens within the DEGEN Ecosystem that will be used to frequently reward holders. A community wallet will be set up immediately after mint out.
+              </p>
+            </div>
+            <img src={world} id="pic"/>
           </div>
           <div className="big-wrapper">
             <div className="welcome-mint-wrapper">
@@ -142,7 +160,7 @@ class Home extends Component {
           </div>
           <div className="welcome-wrapper">
             <div className="welcome body-text">
-              <h1 className="roadmap" id="roadmap">LIKE WALLSTREETBETS ENTERED THE METAVERSE</h1>
+              <h1 className="roadmap" id="community">LIKE WALLSTREETBETS ENTERED THE METAVERSE</h1>
               <p className="roadmap">DALC is a place for traders to make money and have fun while doing it. When you buy a Degen Ape, you’re not simply buying a creative piece of art, you get a few other neat benefits. 
               </p>
               <p className="roadmap">
@@ -156,9 +174,12 @@ class Home extends Component {
           <div className="welcome-wrapper">
             <div className="welcome body-text">
               <h1 className="welcome" id="team-link">THE TEAM</h1>
-              <p className="welcome">The Degen Ape Lambo Club started as a fun hobby project between three friends, but grew into something we realized could make a pretty decent derivative project that would reach degens just like us. The NFT community has been kind of sucky lately and we wanted to build something that could (even in a small way) make Web 3.0 fun again. </p>
+              <p className="welcome">The Degen Ape Lambo Club started as a fun hobby project between four friends, but quickly grew into something we realized could make a pretty decent project for degens just like us. We have gotten so much from this community and want to give back. The NFT space has been kind of sucky lately and we wanted to build something that could make Web 3.0 fun again, even for a small (but special) community of our own.</p>
               <p className="roadmap">
-                - Boogie, George, and KAT
+                WGMI together.
+              </p>
+              <p className="roadmap">
+                - Boogie, George, Jisu, and KAT
               </p>
             </div>
             <div className="grid">
