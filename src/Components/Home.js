@@ -132,7 +132,7 @@ class Home extends Component {
             <img src={lambo} id="lambo"/>
             <div className="mint-function">
               <div className="price">
-                0.039 Ξ
+                0.04 Ξ
               </div>
               <div className="mint-amt">
                 <button className="minmax" onClick={this.decrement}> - </button>
