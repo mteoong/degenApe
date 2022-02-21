@@ -617,7 +617,7 @@ const checkStatus = async (mintButton, amount) => {
 
 const returnCount = async (minted) => {
    contract.methods.totalSupply().call().then(function(result) {
-      minted.innerHTML = result + "/1999";
+      minted.innerHTML = result + "/2222";
    })
 }
 

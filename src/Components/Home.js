@@ -49,7 +49,7 @@ class Home extends Component {
   componentDidMount() {
     const mintButton = document.getElementsByClassName('mint')[0];
     const amount = Number(document.getElementsByClassName("num")[0].value);
-    const minted = document.getElementsByClassName('minted')[0];
+    const minted = document.getElementsByClassName('sold')[0];
 
     returnCount(minted);
     checkStatus(mintButton, amount);
@@ -109,7 +109,7 @@ class Home extends Component {
             </div>
             <div className="mint-left">
             <div className="sold">
-                  300/2222
+                  /2222
             </div>
             <img src={lambo} id="lambo"/>
             <div className="mint-function">
