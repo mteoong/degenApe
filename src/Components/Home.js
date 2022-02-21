@@ -79,7 +79,7 @@ class Home extends Component {
           <div className="welcome-wrapper">
             <div className="welcome body-text">
               <h1 className="welcome">WELCOME TO THE DEGEN APE LAMBO CLUB</h1>
-              <p className="welcome">DALC is a collection of 2,222 Degenerate Apes, created to unite degen traders from across the NFT community. Your Degen Ape doubles as your membership card to the OpenSeaBets Discord group, a community driven hub for discussing NFT alpha, degen plays, great wins, and equally great losses. We are a whole new level of degen. </p>
+              <p className="welcome">DALC is a collection of 4,444 Degenerate Apes, created to unite degen traders from across the NFT community. Your Degen Ape doubles as your membership card to the OpenSeaBets Discord group, a community driven hub for discussing NFT alpha, degen plays, great wins, and equally great losses. We are a whole new level of degen. </p>
             </div>
             <div className="grid" id="welcome">
               <img src={one} id="grid"/>
@@ -127,12 +127,12 @@ class Home extends Component {
             </div>
             <div className="mint-left">
             <div className="sold">
-                  300/2222
+                  300/4444
             </div>
             <img src={lambo} id="lambo"/>
             <div className="mint-function">
               <div className="price">
-                0.029 Ξ
+                0.039 Ξ
               </div>
               <div className="mint-amt">
                 <button className="minmax" onClick={this.decrement}> - </button>
@@ -150,7 +150,7 @@ class Home extends Component {
               <p className="welcome">Each Degen Ape is unique and programmatically generated from over 130 possible traits. These traits include different expressions, vapes, and headwear. All traits were carefully designed to make sure each Ape is well suited to be a part of the Degen Ape Lambo Club. 
               </p>
               <p className="welcome-no-line">
-              Hidden among the 2000 Apes are several rare 1/1s who represent the greatest degens in world history.  
+              Hidden among the 4444 Apes are several rare 1/1s who represent the greatest degens in world history.  
               </p>
               <p className="welcome-no-line">
               Apes will reveal 24 hours after mint.  
