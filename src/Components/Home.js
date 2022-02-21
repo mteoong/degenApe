@@ -96,7 +96,7 @@ class Home extends Component {
                 We're dropping degens right into the metaverse. Get paid in <b>$WRLD</b> just by holding a DALC NFT. 
               </p>
               <p className="welcome-no-line">
-                We are developing a Play-2-Earn gaming experience made for degens inside our very own NFT Worlds piece of land. Our NFT World will utilize the entire <b>$WRLD</b> ecosystem where you will be able to spend, generate, and passively earn <b>$WRLD</b>.
+                We are developing a Play-2-Earn gaming experience tailor made for degens inside our very own NFT Worlds piece of land. Our NFT World will utilize the entire <b>$WRLD</b> ecosystem where you will be able to spend, generate, and passively earn <b>$WRLD</b>.
               </p>
               <p className="welcome-no-line">
                 DALC will allocate a % of both minting and secondary sales to buy more NFT Worlds in order to generate more <b>$WRLD </b>tokens within the DEGEN Ecosystem that will be used to frequently reward holders. A community wallet will be set up immediately after mint out.
@@ -150,7 +150,7 @@ class Home extends Component {
               <p className="welcome">Each Degen Ape is unique and programmatically generated from over 130 possible traits. These traits include different expressions, vapes, and headwear. All traits were carefully designed to make sure each Ape is well suited to be a part of the Degen Ape Lambo Club. 
               </p>
               <p className="welcome-no-line">
-              Hidden among the 4444 Apes are several rare 1/1s who represent the greatest degens in world history.  
+              Hidden among the 4,444 Apes are several rare 1/1s who represent the greatest degens in world history.  
               </p>
               <p className="welcome-no-line">
               Apes will reveal 24 hours after mint.  
