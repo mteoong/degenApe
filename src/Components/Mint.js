@@ -605,10 +605,10 @@ const checkStatus = async (mintButton, amount) => {
       mintButton.innerText = 'MINT';
       mintButton.onclick = () => {
          contract.methods.totalSupply().call().then(function(result) {
-            if (Number(result) < 100) {
+            if (Number(result) < 300) {
                contract.methods.mint(amount).send({ from: account, value : '0'});
             } else {
-               contract.methods.mint(amount).send({ from: account, value : (amount * 29000000000000000).toString()});
+               contract.methods.mint(amount).send({ from: account, value : (amount * 40000000000000000).toString()});
             }
          })
          }
@@ -617,7 +617,7 @@ const checkStatus = async (mintButton, amount) => {
 
 const returnCount = async (minted) => {
    contract.methods.totalSupply().call().then(function(result) {
-      minted.innerHTML = result + "/2222";
+      minted.innerHTML = result + "/4444";
    })
 }
 
